@@ -7,3 +7,4 @@ class ApiViewSet(viewsets.ModelViewSet):
     queryset = Api.objects.all()
     permission_classes = [permissions.AllowAny]
     serializer_class = ApiSerializer
+
